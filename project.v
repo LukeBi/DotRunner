@@ -357,27 +357,3 @@ module display (
 		end
 	end
 endmodule
-
-			//					if (draw[1:0] >= count[1:0])
-			//						colour = 3'b110;
-			//					else
-			//						colour = 3'b011;
-
-				
-			//					if (count == 3'b111) begin
-			//						draw[159:0] <= {draw[1:0], draw[159:2]};
-			//						count <= 3'b000;
-			//					end
-			//					else begin
-			//						x_init <= 8'd160 - counter;
-			//						y <= y_init - count[1:0];
-			//						x <= x_init + count[2];
-			//						if (draw[1:0] >= count[1:0])
-			//							 colour = 3'b110;
-			//						else
-			//							 colour = 3'b001;
-			//						count <= count + 1;
-			//					end
-			//					counter <= counter + 1;
-
-
