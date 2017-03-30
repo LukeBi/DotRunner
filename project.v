@@ -1,3 +1,11 @@
+/*
+ * Dot Runner
+ * CSCB58 Winter 2017 Final Project 
+ * Team members:
+ * 	Changyu Bi
+ *	Jiachen He
+ */
+
 module project(
 		CLOCK_50,
 		KEY,
